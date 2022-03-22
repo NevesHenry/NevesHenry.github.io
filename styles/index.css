@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,26 +7,31 @@
   text-decoration: none;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Sarala&display=swap");
-
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  /* background: linear-gradient(68.15deg, #362706 16.62%, #E9E5D6 85.61%); */
+  background-color: #E9E5D6;
+  
 }
 
 #wrapper {
   width: 80%;
   margin: 0 auto;
+  background-color: #464E2E;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #000;
 }
 header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background: #2f2325;
-  padding: 24px;
+  background: #362706;
+  padding: 13px;
   flex-wrap: wrap;
   border-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .logo {
@@ -38,14 +45,16 @@ header {
   gap: 20px;
   font-family: "Sarala", sans-serif;
   font-weight: 400;
+  list-style: none;
 }
 
 .nav-top-item {
   display: flex;
 }
 
+nav li 
 a {
-  color: #fff;
+  color: #E9E5D6;
   text-decoration: none;
 }
 
@@ -62,17 +71,18 @@ a:hover {
 }
 
 .intro-txt {
-  max-width: 300px;
+  max-width: 350px;
+  font-size: larger;
   font-family: "Sarala", sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #ffff;
+  color: #E9E5D6;
 }
 .perfil-picture {
   width: 150px;
   border-radius: 50%;
   margin-right: 24px;
-  border: #2f2325 solid 2px;
+  border: #E9E5D6 solid 1px;
 }
 
 .first-hr {
@@ -102,8 +112,12 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background: #2f2325;
-  padding: 24px;
+  background: #362706;
+  padding: 20px;
   border-radius: 15px;
-  color: white;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: #E9E5D6;
+  font-size: small;
+  font-style: italic;
 }

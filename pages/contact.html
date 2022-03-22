@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is where you will find all of the studies, projects and anything else I am doing right now.
+        Also, my social medias and contact information."
+    >
+    <link rel="icon" href="../images/HRNlogo.png" type="image/jpg" sizes="16x16">
+    <link rel="stylesheet" href="../styles/index.css" type="text/css">
+    <link rel="stylesheet" href="../styles/contact.css" type="text/css">
+    <title>Henrique's Contact Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="index.html"><img  class="logo" src="../images/lvl300TyresElvel_cut.jpg" alt="Imagem Henrique cartoon"></a>
+            
+            <nav>
+                <ul class="nav-top">
+                    <li><a  class="nav-top-item" href="./about.html">About</a>&nbsp;&nbsp;</li>
+                    <li><a class="nav-top-item" href="./curriculum.html">Curriculum</a>&nbsp;&nbsp;</li>
+                    <li><a class="nav-top-item" href="./projects.html">Projects</a>&nbsp;&nbsp;</li>
+                    <li><a class="nav-top-item" href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr><br>
+        <main>
+            <section>
+                <h1 class="heading">Contact Me</h1><br>
+                <form action="contact.php" method="get">
+                    <fieldset>
+                        <legend>Your Identification</legend>
+                        <label for="fname">First Name:
+                            <input type="text" name="fname" id="fname">
+                        </label>
+                        <br><br>
+                        <label for="lname">Last Name:
+                            <input type="text" name="lname" id="lname">
+                        </label>
+                        <br><br>
+                        <label for="email">Email:
+                            <input type="email" name="email" id="email">
+                        </label>
+                        <br>
+                    </fieldset>
+                    <br>
+                    <div>
+                        <label for="comments">Comments:</label><br>
+                        <textarea name="comments" id="comments" cols="50" rows="4"></textarea>
+                        <br><br>
+                        <input type="submit" value="Submit"> &nbsp;&nbsp;
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+                <br><hr class="in-section-hr"><br>
+                <h1>Social Medias</h1>
+                <div class="second-section">
+                    <ul class="social-list">
+                        <li class="social"><a href="https://www.linkedin.com/in/henrique-neves-949010177/" target="_blank"><img src="../images/linkedin_icon.png"  alt="linkedIn icon" width="32"></a></li>
+                        <li class="social"><a href="https://github.com/NevesHenry" target="_blank"><img src="../images/github_icon.png" alt="Github icon" width="40"></a></li>
+                        <li class="social"><a href="mailto:henriquereisneves@gmail.com"><img src="../images/email_icon.png" alt="Email icon" width="40"></a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <br><hr>
+        <footer>
+            <img src="../images/HRNlogo.png" alt="Henrique's logo" width="150">
+            <p>
+                Copyright © 2022
+                <a href="mailto:henriquereisneves@gmail.com">Henrique Reis Neves</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
