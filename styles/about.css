@@ -1,0 +1,24 @@
+.about-pictures{
+    width: 350px;
+    border-radius: 50%;
+    margin-right: 24px;
+    border: #E9E5D6 solid 1px;
+}
+
+iframe {
+    border-radius: 5%;
+}
+
+h1 {
+    font-family: "Sarala", sans-serif;
+    color: #ACB992;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+}
+
+.intro-txt {
+   text-decoration: underline;
+   line-height: 2em;
+   font-style: italic;
+}
