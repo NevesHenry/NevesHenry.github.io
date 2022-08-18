@@ -8,7 +8,4 @@ function submitMessege(){
         document.getElementById("comments").value == "") {
         alert("Please fill in all the fields");
     }
-    else{
-        alert("Thank you for your message! I will get back to you as soon as possible!");
-    }
 }
