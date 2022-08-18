@@ -18,7 +18,7 @@ section {
 }
 form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 24px;
@@ -37,10 +37,16 @@ fieldset {
 }
 input {
     margin-left: 10px;
+    border-radius: 5px;
 }
 
 input[type="email"] {
     margin-left: 47px;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 input[type="submit"] {
@@ -95,6 +101,16 @@ h1 {
     color: #eaeaea;
     text-align: center;
     margin-top: 15px;
+}
+
+#form-inner-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    flex-wrap: wrap;
+    font-family: "Sarala", sans-serif;
 }
 
 @media (max-width:615px) {
